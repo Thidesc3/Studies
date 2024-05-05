@@ -1,3 +1,5 @@
 def announce(f):
     def wrapper():
-        print("run")
+        print("run the function...")
+        f()
+        print("")
